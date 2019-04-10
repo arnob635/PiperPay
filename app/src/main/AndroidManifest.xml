@@ -13,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".dashboard"></activity>
         <activity android:name=".MainActivity">
             android:launchMode="singleTask"
             <intent-filter>
@@ -58,6 +59,7 @@
         <activity android:name=".Login" />
         <activity android:name=".Signup" />
         <activity android:name=".fingerPrintLogin" />
+<<<<<<< HEAD
         <!-- Branch install referrer tracking -->
         <receiver
             android:name="io.branch.referral.InstallListener"
@@ -68,6 +70,8 @@
         </receiver>
 
         <activity android:name=".invoice"></activity>
+=======
+>>>>>>> 89c94173ee02c3e9ca892b21cbd3bc1ab7e39288
     </application>
 
 </manifest>
