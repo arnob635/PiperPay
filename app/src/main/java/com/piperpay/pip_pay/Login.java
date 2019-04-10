@@ -4,11 +4,13 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
 
     TextView txt;
+    ImageView fAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +24,16 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 Intent change = new Intent(Login.this,Signup.class);
                 startActivity(change);
+            }
+        });
+
+        fAuth = findViewById(R.id.fingerPrintAuth);
+        fAuth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Login.this,fingerPrintLogin.class);
+                startActivity(intent);
+
             }
         });
 
