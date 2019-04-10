@@ -3,6 +3,7 @@
 
 
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
@@ -18,9 +19,9 @@
         android:paddingRight="24dp">
 
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:src="@drawable/piperpaylogo"/>
+            android:src="@drawable/piperpaylogo" />
 
 
         <EditText
@@ -35,11 +36,10 @@
             android:hint="E-Mail"/>
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/etPass"
-            android:hint="New Password"
-            android:paddingTop="120dp"/>
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:hint="Password" />
 
         <EditText
             android:layout_width="match_parent"
