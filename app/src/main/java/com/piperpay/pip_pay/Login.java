@@ -17,6 +17,8 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+
+
         txt=(TextView) findViewById(R.id.create);
 
         txt.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +29,8 @@ public class Login extends AppCompatActivity {
             }
         });
 
+
+
         fAuth = findViewById(R.id.fingerPrintAuth);
         fAuth.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,6 +40,8 @@ public class Login extends AppCompatActivity {
 
             }
         });
+
+
 
 
     }
