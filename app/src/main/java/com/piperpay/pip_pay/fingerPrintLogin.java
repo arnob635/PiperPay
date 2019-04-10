@@ -17,7 +17,7 @@ public class fingerPrintLogin extends AppCompatActivity {
     ImageView mFingerprintImage;
     TextView mParaLabel;
     private FingerprintManager fingerprintManager;
-    private KeyguardManager keyguardManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +52,10 @@ public class fingerPrintLogin extends AppCompatActivity {
             } else {
 
                 mParaLabel.setText("Place your Finger on Scanner to Access the App.");
+
+                FingerprintHAndler fingerprintHandler = new FingerprintHAndler(this);
+
+                fingerprintHandler.startAuth(fingerprintManager,null);
 
 
             }
