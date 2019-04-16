@@ -70,7 +70,7 @@ public class FingerprintHAndler extends FingerprintManager.AuthenticationCallbac
 
             paraLabel.setTextColor(ContextCompat.getColor(context, R.color.colorPrimary));
             imageView.setImageResource(R.mipmap.action_done);
-            Intent myIntent = new Intent(context, Signup.class);
+            Intent myIntent = new Intent(context, dashboard.class);
             context.startActivity(myIntent);
 
 

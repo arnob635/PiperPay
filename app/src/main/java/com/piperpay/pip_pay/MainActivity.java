@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final int splash_display_len = 2000;
+    private final int splash_display_len = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
