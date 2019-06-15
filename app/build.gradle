@@ -29,6 +29,7 @@ dependencies {
 
     implementation 'io.branch.segment.analytics.android.integrations:branch:1.0.2-RELEASE'
     implementation 'io.branch.sdk.android:library:2.19.5'
+    implementation 'io.branch.sdk.android:library:2.+'
 
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:gridlayout-v7:28.0.0'
